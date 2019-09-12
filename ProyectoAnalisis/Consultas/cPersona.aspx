@@ -12,8 +12,7 @@
                     <asp:Label Text="Filtro" runat="server" />
                     <asp:DropDownList ID="FiltroDropDownList" CssClass="form-control" runat="server">
                         <asp:ListItem>Todo</asp:ListItem>
-                        <asp:ListItem>Todo por Fecha</asp:ListItem>
-                        <asp:ListItem>Id de la Cuenta</asp:ListItem>
+                        <asp:ListItem>Id de la Persona</asp:ListItem>
                         <asp:ListItem>Nombre</asp:ListItem>
                     </asp:DropDownList>
                 </div>
@@ -23,7 +22,7 @@
                     <asp:TextBox ID="CriterioTextBox" AutoCompleteType="Disabled" class="form-control input-group" runat="server"></asp:TextBox>
                 </div>
                 <div class="col-lg-1 p-0">
-                    <asp:LinkButton ID="buscarLinkButton" CssClass="btn btn-dark mt-4" runat="server">
+                    <asp:LinkButton ID="buscarLinkButton" CssClass="btn btn-dark mt-4" runat="server" OnClick="buscarLinkButton_Click">
                 <span class="fas fa-search"></span>
                  Buscar
                     </asp:LinkButton>
@@ -44,13 +43,11 @@
                 <div class="card-body">
                     <asp:Label ID="criterioLabel" runat="server" Text="" Font-Bold="True" ValidateRequestMode="Inherit" Font-Size="Large"></asp:Label>
                     <div class="form-row justify-content-center">
-                        <asp:GridView ID="UsuarioGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None">
+                        <asp:GridView ID="ConsultaGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None">
                             <AlternatingRowStyle BackColor="LightSkyBlue" />
                             <Columns>
-                                <asp:BoundField DataField="CuentaBancariaId" HeaderText="Id de Cuenta" />
-                                <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
-                                <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
-                                <asp:BoundField DataField="Balance" HeaderText="Balance" />
+                                <asp:BoundField DataField="PersonaId" HeaderText="PersonaId" />
+                                <asp:BoundField DataField="Nombres" HeaderText="Nombre" />
                             </Columns>
                             <HeaderStyle BackColor="LightGreen" Font-Bold="True" />
                         </asp:GridView>

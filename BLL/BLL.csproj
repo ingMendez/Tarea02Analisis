@@ -51,6 +51,8 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
+    <Compile Include="RepositorioAnalisis.cs" />
+    <Compile Include="RepositorioPago.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

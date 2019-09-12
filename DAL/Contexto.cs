@@ -14,6 +14,7 @@ namespace DAL
         public DbSet<Analisis> Analisis { get; set; }
         public DbSet<AnalisisDetalle> AnalisisDetalle { get; set; }
         public DbSet<TipoAnalisis> TipoAnalisis { get; set; }
+        public DbSet<Pago> Pago { get; set; }
 
         public Contexto() : base("ConStr")
         {

@@ -76,6 +76,42 @@ namespace ProyectoAnalisis.Registros {
         protected global::System.Web.UI.WebControls.DropDownList PersonaDropDownList;
         
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
+        /// TipoAnalisisDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList TipoAnalisisDropDownList;
+        
+        /// <summary>
+        /// Label5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// PrecioTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox PrecioTextBox;
+        
+        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -103,13 +139,22 @@ namespace ProyectoAnalisis.Registros {
         protected global::System.Web.UI.WebControls.Button agregarButton;
         
         /// <summary>
-        /// egresoGridView control.
+        /// criterioLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView egresoGridView;
+        protected global::System.Web.UI.WebControls.Label criterioLabel;
+        
+        /// <summary>
+        /// detalleGridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView detalleGridView;
         
         /// <summary>
         /// Label2 control.
@@ -121,13 +166,13 @@ namespace ProyectoAnalisis.Registros {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// CantidadAnalisisTextBox control.
+        /// BalanceTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CantidadAnalisisTextBox;
+        protected global::System.Web.UI.WebControls.TextBox BalanceTextBox;
         
         /// <summary>
         /// nuevoButton control.

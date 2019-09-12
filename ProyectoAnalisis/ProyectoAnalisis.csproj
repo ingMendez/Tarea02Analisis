@@ -86,8 +86,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Registros\Login.aspx" />
     <Content Include="Registros\rAnalisis.aspx" />
+    <Content Include="Registros\rPago.aspx" />
     <Content Include="Registros\rPersona.aspx" />
     <Content Include="Registros\rTipoAnalisis.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -163,16 +166,37 @@
     <Compile Include="Consultas\cTipoAnalisis.aspx.designer.cs">
       <DependentUpon>cTipoAnalisis.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registros\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registros\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registros\rAnalisis.aspx.cs">
       <DependentUpon>rAnalisis.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registros\rAnalisis.aspx.designer.cs">
       <DependentUpon>rAnalisis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\rPago.aspx.cs">
+      <DependentUpon>rPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registros\rPago.aspx.designer.cs">
+      <DependentUpon>rPago.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registros\rPersona.aspx.cs">
       <DependentUpon>rPersona.aspx</DependentUpon>
@@ -195,6 +219,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Utilitarios\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -217,6 +242,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{0a25ffe8-bf9d-40d5-a97e-40dc5002a40c}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{39448d9f-078a-4097-ac9f-ba27b8ec49cf}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{d7aabe56-613a-4305-a50a-08a2b1279b99}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

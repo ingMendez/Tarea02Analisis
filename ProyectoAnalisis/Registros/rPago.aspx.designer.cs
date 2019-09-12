@@ -7,90 +7,117 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoAnalisis.Consultas {
+namespace ProyectoAnalisis.Registros {
     
     
-    public partial class cAnalisis {
+    public partial class rPago {
         
         /// <summary>
-        /// FiltroDropDownList control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList FiltroDropDownList;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// Label1 control.
+        /// BuscarButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Button BuscarButton;
         
         /// <summary>
-        /// CriterioTextBox control.
+        /// IdTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CriterioTextBox;
+        protected global::System.Web.UI.WebControls.TextBox IdTextBox;
         
         /// <summary>
-        /// buscarLinkButton control.
+        /// Label10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton buscarLinkButton;
+        protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// DesdeTextBox control.
+        /// fechaTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox DesdeTextBox;
+        protected global::System.Web.UI.WebControls.TextBox fechaTextBox;
         
         /// <summary>
-        /// HastaTextBox control.
+        /// Label7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HastaTextBox;
+        protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// criterioLabel control.
+        /// PersonaDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label criterioLabel;
+        protected global::System.Web.UI.WebControls.DropDownList PersonaDropDownList;
         
         /// <summary>
-        /// ConsultaGridView control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ConsultaGridView;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// ImprimirLinkButton control.
+        /// montoTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton ImprimirLinkButton;
+        protected global::System.Web.UI.WebControls.TextBox montoTextBox;
+        
+        /// <summary>
+        /// nuevoButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button nuevoButton;
+        
+        /// <summary>
+        /// guardarButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button guardarButton;
+        
+        /// <summary>
+        /// eliminarutton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button eliminarutton;
     }
 }
