@@ -176,13 +176,14 @@ namespace ProyectoAnalisis.Registros
                     detalleGridView.DataSource = ViewState["Detalle"];
                     detalleGridView.DataBind();
                     LlenaBalance();
+                    ResultadoTextBox.Text = "";
                 }
             }
         }
 
         protected void BuscarButton_Click(object sender, EventArgs e)
         {
-            Repositorio<Analisis> repositorio = new Repositorio<Analisis>();
+            RepositorioAnalisis repositorio = new RepositorioAnalisis();
 
             var analis = repositorio.Buscar(Utils.ToInt(IdTextBox.Text));
             if (analis != null)
@@ -251,7 +252,7 @@ namespace ProyectoAnalisis.Registros
 
         protected void eliminarButton_Click(object sender, EventArgs e)
         {
-            Repositorio<Analisis> repositorio = new Repositorio<Analisis>();
+            RepositorioAnalisis repositorio = new RepositorioAnalisis();
             int id = Utils.ToInt(IdTextBox.Text);
 
             var Analisis = repositorio.Buscar(id);
