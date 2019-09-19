@@ -162,6 +162,11 @@ namespace ProyectoAnalisis.Registros
                     Utils.ShowToastr(this, "Debe escribir un Resultado para agregar", "Error", "error");
                     return;
                 }
+                if (String.IsNullOrWhiteSpace(PrecioTextBox.Text) || Convert.ToInt32(PrecioTextBox.Text) == 0)
+                {
+                    Utils.ShowToastr(this, "Debe tener Precio", "Error", "error");
+                    return;
+                }
                 else
                 {
                     if (detalleGridView.Rows.Count != 0)

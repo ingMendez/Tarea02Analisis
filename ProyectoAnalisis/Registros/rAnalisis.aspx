@@ -64,22 +64,24 @@
                         </div>
                         <div class="table-responsive">
                             <hr>
-                            <div class="col-md-8 col-md-offset-3">
+                            <div class="col-md-10 col-md-offset-3">
                                 <div class="container">
-                                    <div class="form-group">
-                                        <asp:Label ID="criterioLabel" runat="server" Text="Detalle" Font-Bold="True" ValidateRequestMode="Inherit" Font-Size="Large"></asp:Label>
-                                        <asp:GridView ID="detalleGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#0066FF" GridLines="None">
-                                            <AlternatingRowStyle BackColor="#999999" />
-                                            <Columns>
-                                                <asp:BoundField DataField="Id" HeaderText="Id" />
-                                                <asp:BoundField DataField="AnalisisId" HeaderText="AnalisisId" />
-                                                <asp:BoundField DataField="TipoId" HeaderText="TipoId" />
-                                                <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
-                                                <asp:BoundField DataField="Precio" HeaderText="Precio" />
-                                                <asp:BoundField DataField="Resultado" HeaderText="Resultado" />
-                                            </Columns>
-                                            <HeaderStyle BackColor="#003366" Font-Bold="True" />
-                                        </asp:GridView>
+                                    <div class="form-row justify-content-center">
+                                        <div class="form-group">
+                                            <asp:Label ID="criterioLabel" runat="server" Text="Detalle" Font-Bold="True" ValidateRequestMode="Inherit" Font-Size="Large"></asp:Label>
+                                            <asp:GridView ID="detalleGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#0066FF" GridLines="None">
+                                                <AlternatingRowStyle BackColor="#999999" />
+                                                <Columns>
+                                                    <asp:BoundField DataField="Id" HeaderText="Id" />
+                                                    <asp:BoundField DataField="AnalisisId" HeaderText="AnalisisId" />
+                                                    <asp:BoundField DataField="TipoId" HeaderText="TipoId" />
+                                                    <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
+                                                    <asp:BoundField DataField="Precio" HeaderText="Precio" />
+                                                    <asp:BoundField DataField="Resultado" HeaderText="Resultado" />
+                                                </Columns>
+                                                <HeaderStyle BackColor="#003366" Font-Bold="True" />
+                                            </asp:GridView>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

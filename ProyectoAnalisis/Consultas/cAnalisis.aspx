@@ -49,7 +49,7 @@
                                 <asp:BoundField DataField="AnalisisId" HeaderText="AnalisisId" />
                                 <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
                                 <asp:BoundField DataField="PersonaId" HeaderText="PersonaId" />
-                                <asp:BoundField DataField="TotalAnalisis" HeaderText="TotalAnalisis" />
+                                <asp:BoundField DataField="Balance" HeaderText="Balance A Pagar" />
                             </Columns>
                             <HeaderStyle BackColor="LightGreen" Font-Bold="True" />
                         </asp:GridView>

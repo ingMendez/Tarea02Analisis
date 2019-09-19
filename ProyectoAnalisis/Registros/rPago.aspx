@@ -40,7 +40,7 @@
                             <div class="container">
                                 <div class="form-group">
                                     <asp:Label ID="Label4" runat="server" Text="Monto"></asp:Label>
-                                    <asp:TextBox class="form-control" ID="montoTextBox" placeholder="0" type="number" runat="server" ReadOnly="True" BackColor="#3399FF"></asp:TextBox>
+                                    <asp:TextBox class="form-control" ID="montoTextBox" placeholder="0" type="number" runat="server" ReadOnly="false" BackColor="#3399FF"></asp:TextBox>
                                 </div>
                             </div>
                         </div>

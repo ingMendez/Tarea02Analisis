@@ -47,6 +47,7 @@
                             <Columns>
                                 <asp:BoundField DataField="TipoId" HeaderText="TipoId" />
                                 <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
+                                    <asp:BoundField DataField="Precio" HeaderText="Precio Analisis" />
                                 <asp:BoundField DataField="CantidadHechos" HeaderText="Cantidad Hechos" />
                             </Columns>
                             <HeaderStyle BackColor="LightGreen" Font-Bold="True" />

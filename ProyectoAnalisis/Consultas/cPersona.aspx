@@ -48,6 +48,7 @@
                             <Columns>
                                 <asp:BoundField DataField="PersonaId" HeaderText="PersonaId" />
                                 <asp:BoundField DataField="Nombres" HeaderText="Nombre" />
+                                <asp:BoundField DataField="Deuda" HeaderText="Deuda " />
                             </Columns>
                             <HeaderStyle BackColor="LightGreen" Font-Bold="True" />
                         </asp:GridView>
